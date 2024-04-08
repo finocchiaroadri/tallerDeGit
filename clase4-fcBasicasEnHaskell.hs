@@ -20,3 +20,10 @@ fog n = f (g n)
 gof :: Int -> Int
 gof n = g (f n)
 
+{- EJERCICIO2 -}
+{- a) calcula valor absoluto de nro entero-}
+absoluto :: Int -> Int
+absoluto n | n > 0 = n
+           | otherwise = n * (-1)
+
+           
